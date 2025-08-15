@@ -114,9 +114,6 @@ tar -xf blender-3.0.0-linux-x64.tar.xz
 ```bash
 ./blender -b -P animation_pose.py -- --name <ply_folder>
 ```
-
----
-
 ---
 
 ## 🚀 Step 5: Running the AutoPose Pipeline
