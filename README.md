@@ -6,10 +6,10 @@ Pose-Level Synthetic Data Augmentation for Action Recognition (Research Purposes
 This project will download and install additional third-party open source software projects. Review the license terms of these open source projects before use.
 
 
-https://github.com/user-attachments/assets/491955c2-e0ea-4547-8cde-2820a485464a
+https://github.com/user-attachments/assets/491955c2-e0ea-4547-8cde-2820a485464a  
 
-[Colab demo redacted for conference submission purposes]
-[Hugging Face demo redacted for conference submission purposes]
+### [Colab demo redacted for conference submission purposes]  
+### [Hugging Face demo redacted for conference submission purposes]
 
 
 **AutoPose** is an open-source toolkit that generates class-balanced, kinematically valid video clips by automatically **interpolating human poses** rather than rendering full photorealistic frames. The framework addresses dataset imbalance by creating synthetic data for minority action classes in action-recognition datasets without requiring additional sensors or modalities, using only RGB videos.
