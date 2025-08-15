@@ -1,4 +1,4 @@
-# AutoPose – Setup Guide
+# AutoPose – Setup Guide [edited for conference submission]
 This guide walks you through installing dependencies, placing pretrained models, and testing each component of the AutoPose pipeline. Common errors and fixes are also provided.
 
 ---
