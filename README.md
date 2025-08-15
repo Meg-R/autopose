@@ -44,7 +44,7 @@ This code has been developed and tested only with NVIDIA Processors.
 | **2 Clone sub-repos** | `git clone` the five required repos *(see list below)* | Keep the folder names unchanged |
 | **3 Create `.env`** | Add your required keys and paths to each repo | No keys provided in this repo |
 | **4 Download models** | Obtain all checkpoints from setup instructions | Place files exactly as instructed |
-| **5 Smoke-test** | Run each repo’s test script once | Fail-fast before running the full pipeline |
+| **5 Smoke-test** | Run each repo’s test script once and then run `components\running.py` | Fail-fast before running the full pipeline |
 | **6 Automate Pipeline** | Select your CV model for the optimization loop and automate using included components | Each use case is user-defined |
 
 ### Required External Repositories
