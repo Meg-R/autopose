@@ -123,7 +123,7 @@ Once all components are set up and tested individually, run the generation-only 
 python components/running.py 
 ```
 
-Replace `--mode` with your desired augmentation type. This will execute the full AutoPose pipeline using the chosen configuration.
+Commment out the function you do not want to try out, and fill in the directory as per the `running.py' script. This will execute the full AutoPose pipeline using the chosen configuration.
 
 # 🔧 General Troubleshooting
 
