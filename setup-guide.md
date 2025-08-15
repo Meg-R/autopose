@@ -117,9 +117,21 @@ tar -xf blender-3.0.0-linux-x64.tar.xz
 
 ---
 
+---
+
+## 🚀 Step 5: Running the AutoPose Pipeline
+Once all components are set up and tested individually, run the generation-only script by selecting either the **synthetic-mix** or **real-mix** option:
+
+```bash
+python components/running.py 
+```
+
+Replace `--mode` with your desired augmentation type. This will execute the full AutoPose pipeline using the chosen configuration.
+
 # 🔧 General Troubleshooting
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
 | Paths not found | `.env` not read | Hardcode paths or store in Python config file |
 | `python` not recognized | Python3 mismatch | `sudo ln -s $(which python3) /usr/local/bin/python` |
+
