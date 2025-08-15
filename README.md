@@ -5,10 +5,8 @@ Pose-Level Synthetic Data Augmentation for Action Recognition (Research Purposes
 #### Licensed under NSCLv2, where users can use this noncommercially (research or evaluation purposes only) on NVIDIA Processors.  
 This project will download and install additional third-party open source software projects. Review the license terms of these open source projects before use.
 
-![autopose_demo](https://github.com/user-attachments/assets/7ae09f18-2338-4cf2-ae52-fd569f31380a)  
 
-![detailed_synthdablog-demo](https://github.com/user-attachments/assets/7ae09f18-2338-4cf2-ae52-fd569f31380a)
-
+https://github.com/user-attachments/assets/491955c2-e0ea-4547-8cde-2820a485464a
 
 [Colab demo redacted for conference submission purposes]
 [Hugging Face demo redacted for conference submission purposes]
@@ -32,6 +30,8 @@ Each component of the framework can be swapped with models or components of your
 
 Pose-level synthesis keeps joint semantics explicit, reduces visual artifacts, and allows customizable generation speed and quality on NVIDIA GPUs.  
 This code has been developed and tested only with NVIDIA Processors.
+
+## Publications [Redacted for Conference Review]
 
 ---
 
