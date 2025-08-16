@@ -70,10 +70,10 @@ autopose/
 ├── SlowFast/                    # Action recognition backbone (for optimization loop)
 ├── Blender-3.0.0/               # Blender binary (for rendering if required)
 ├── components/                  # Core AutoPose modules
-│   ├── dataset/                    # Data loading & preprocessing
-│   ├── optimization/                  # Pose-level interpolation methods
-│   ├── renders/                  # Video rendering utilities
-│   ├── video_processing/                   # Training and optimization loop
+│   ├── dataset/                 # Data loading & preprocessing
+│   ├── optimization/            # Pose-level interpolation methods
+│   ├── renders/                 # Video rendering utilities
+│   ├── video_processing/        # Training and optimization loop
 │   ├── utils/                   # Helper functions and shared code
 │   └── ...                      # Additional modules/scripts from the AutoPose repo
 ```
