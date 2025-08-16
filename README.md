@@ -57,3 +57,23 @@ text-to-motion/
 joints2smpl/
 SlowFast/
 Blender-3.0.0/          (binary drop)
+
+```
+
+### Suggested Folder Structure
+
+```text
+autopose/
+├── StridedTransformer-Pose3D/   # Pose extraction and temporal modeling
+├── text-to-motion/              # Text-to-motion generation utilities
+├── joints2smpl/                 # Pose-to-SMPL conversion scripts
+├── SlowFast/                    # Action recognition backbone (for optimization loop)
+├── Blender-3.0.0/               # Blender binary (for rendering if required)
+├── components/                  # Core AutoPose modules
+│   ├── dataset/                    # Data loading & preprocessing
+│   ├── optimization/                  # Pose-level interpolation methods
+│   ├── renders/                  # Video rendering utilities
+│   ├── video_processing/                   # Training and optimization loop
+│   ├── utils/                   # Helper functions and shared code
+│   └── ...                      # Additional modules/scripts from the AutoPose repo
+```
