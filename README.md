@@ -12,9 +12,11 @@ This project will download and install additional third-party open source softwa
 ### [Hugging Face demo redacted for conference submission purposes]
 
 
-**AutoPose** is an open-source toolkit that generates class-balanced, kinematically valid video clips by automatically **interpolating human poses** rather than rendering full photorealistic frames. The framework addresses dataset imbalance by creating synthetic data for minority action classes in action-recognition datasets without requiring additional sensors or modalities, using only RGB videos.
+AutoPose is an open-source framework that augments underrepresented action classes through pose-level interpolation. Instead of rendering full photorealistic frames, AutoPose generates kinematically valid, class-consistent video clips directly from interpolated pose trajectories. This approach preserves structural fidelity, avoids common motion artifacts from heavy generative pipelines, and makes it efficient for enriching rare, safety-critical actions such as falls.
 
-Each component of the framework can be swapped with models or components of your choice. While the original implementation used an action recognition network for the augmentation optimization loop, users can integrate their preferred models. Components may be used individually or automated for a specific use case.
+Inspired by interpolation-based methods like SMOTE, AutoPose adapts these ideas to human pose space. It creates synthetic sequences via two modes: Synthetic-Mix (interpolating real with synthetic poses) and Real-Mix (interpolating between real poses), with interpolation weights optimized in a gradient-guided loop.
+
+Each component of the framework can be customized with models of your choice. While the reference implementation integrates an action recognition network for optimization, users may substitute alternative models. Components can also be run independently or automated for specific use cases.
 
 ![pipeline_demo](https://github.com/user-attachments/assets/1fde62ce-67a6-4673-9341-78da4daa31e4)
 
